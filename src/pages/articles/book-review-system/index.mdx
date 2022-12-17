@@ -1,0 +1,30 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import designSystem from './book-review-system.png'
+
+export const meta = {
+  author: 'Bartas Urba',
+  date: '2022-12-01',
+  title: 'Crafting a book review system for independent bookstores',
+  description:
+    'Responding to a need within the independent bookstore industry for review integration.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+<Image src={designSystem} alt="" />
+
+We created this system using the following tech stack:
+
+## Tech stack
+
+1. [Golang](https://go.dev/)
+1. [Angular](https://angular.io/)
+1. [TailwindCSS](https://tailwindcss.com/)
+
+## App Features
+
+- Industry integrations
+- Inventory data
+- PDF generation
+- Selenium-style browser automation
