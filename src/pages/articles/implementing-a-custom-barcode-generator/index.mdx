@@ -5,21 +5,19 @@ import barcodeGenerator from './barcode-generator.png'
 export const meta = {
   author: 'Bartas Urba',
   date: '2022-09-05',
-  title: 'Implementing a custom barcode generator',
+  title: 'Writing a barcode generator program',
   description:
-    'Gathering requirements from stakeholders and implementing design changes is a key part of the software design process.',
+    'I wrote a custom barcode generator for a mobile device repair shop. I used the Python programming language for this project.',
 }
 
 export default (props) => <ArticleLayout meta={meta} {...props} />
 
-    Gathering requirements from stakeholders and implementing design changes is a key part of the software design process. We worked through several iterations of a custom barcode generator for a client.
+I wrote a custom barcode generator for a mobile device repair shop. I used the [Python](https://www.python.org/) programming language and the [the Google API Python client](https://github.com/googleapis/google-api-python-client) for this project.
 
 <Image src={barcodeGenerator} alt="" />
 
-We created this system using [Python](https://www.python.org/) and [the Google API Python client](https://github.com/googleapis/google-api-python-client).
-
 ## App Features
 
-- PDF generation
-- Custom barcode writer
-- High performance
+- Generates PDF output
+- Customized barcode renderer
+- High performance code
